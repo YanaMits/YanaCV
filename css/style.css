@@ -1,0 +1,89 @@
+﻿body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header {
+    background-color: #0e1c34;
+    color: white;
+    font-family: Arial;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    padding: 30px;
+}
+
+nav {
+    padding: 20px 0px;
+}
+
+main {
+    display: flex;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    background-color: #0e1c34;
+    color: white;
+}
+
+aside {
+    grid-column: 3;
+    grid-row: 2;
+    padding: 30px;
+    margin: 30px;
+}
+
+footer {
+    grid-column: 1/ span 2;
+    grid-row: 3;
+    padding: 30px 0px 30px 30px;
+}
+
+#introduction {
+    background-color: #0e1c34;
+    padding: 60px 60px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.list {
+    padding: 14px;
+}
+
+    .list li {
+        color: #0e1c34;
+    }
+
+#fb-link {
+    padding: 30px 0px;
+    display: block;
+    color: #0e1c34;
+}
+
+#my-photo {
+    width: 400px;
+}
+
+nav span {
+    padding: 10px 50px 0px 50px;
+}
+
+nav a {
+    color: white;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 24px;
+    color: #0e1c34;
+}
+
+button {
+    background-color: #0e1c34;
+    color: white;
+    padding: 0px 30px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
